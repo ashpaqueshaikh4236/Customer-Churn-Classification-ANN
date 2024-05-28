@@ -50,31 +50,3 @@ try:
                 st.success('NO')
 except Exception as e:
     st.warning(f'An error occurred: {e}')
-
-
-
-
-
-
-
-
-
-
-
-
-# try:
-#     if st.button('predict'):
-#         st.write(join_data)
-#         reshaped_data = np.asarray(join_data).reshape(1,-1)
-#     try:
-#         if reshaped_data == 'select':
-#             except:
-#                 st.warning('Please Fill all values')
-#                 prediction = model.predict(reshaped_data)
-#                 if prediction > 0.5:
-#                     st.warning('yes')
-#                 else:
-#                     st.success('NO')
-# except:
-#     st.warning('Please Fill all values')
-
